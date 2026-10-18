@@ -1,0 +1,38 @@
+{
+  "created": "2026-10-17",
+  "source": "OpenAI built-in image_gen",
+  "status": "Five options for user review. None selected.",
+  "accent": {
+    "finalSvg": "#AD5B35",
+    "rasterPrompt": "#B76535",
+    "note": "Final vector accent is the sampled user-reference color; unmodified generated concepts preserve model rendering."
+  },
+  "vectors": "Manual geometric redraws derived from generated concepts. Glyphs are outlined paths; no font dependency.",
+  "concepts": [
+    {
+      "id": "01",
+      "sourcePath": "C:\\Users\\SeniorPomidor\\.codex\\generated_images\\01a14988-78fd-7b81-84c9-e3cde69c7970\\exec-a5c118cd-b8a1-4cc9-9ae9-4880d8ebf735.png",
+      "prompt": "Use case: logo-brand. Asset type: premium corporate logo concept for IHC, a China-to-Russia B2B sourcing and logistics company. Create ONE logo on pure white. A compact geometric symbol on the left, bold custom geometric IHC wordmark on the right. Symbol concept: CONNECTION: two opposing L-shaped directional corners interlock across a precise gap, making a strong asymmetrical silhouette. Blue #15487F; one tiny copper #B76535 connector optional. Flat crisp vector aesthetic, generous whitespace. Exact text only \"IHC\". No globe, no eye, no lens, no oval, no two arcs, no additional text, no mockup, no gradients. Wide horizontal presentation."
+    },
+    {
+      "id": "02",
+      "sourcePath": "C:\\Users\\SeniorPomidor\\.codex\\generated_images\\01a14988-78fd-7b81-84c9-e3cde69c7970\\exec-ebeacb02-07d4-4877-8ae7-d420d391254a.png",
+      "prompt": "Use case: logo-brand. Asset type: premium corporate logo concept for IHC, a China-to-Russia B2B sourcing and logistics company. Create ONE logo on pure white. Symbol concept: MONOGRAM: integrate I H C into one compact architectural monogram, one square silhouette with clever negative-space channels. Separate bold geometric IHC wordmark on the right, visibly legible. Blue #15487F; tiny copper #B76535 junction optional. Flat crisp vector aesthetic, generous whitespace. Exact text only \"IHC\". No globe, no eye, no oval, no two arcs, no additional text, no mockup, no gradients. Wide horizontal presentation."
+    },
+    {
+      "id": "03",
+      "sourcePath": "C:\\Users\\SeniorPomidor\\.codex\\generated_images\\01a14988-78fd-7b81-84c9-e3cde69c7970\\exec-918afbcc-5735-4632-88ad-13fc854b7f5a.png",
+      "prompt": "Use case: logo-brand. Asset type: premium corporate logo concept for IHC, a China-to-Russia B2B sourcing and logistics company. Create ONE logo on pure white. Symbol concept: FLOW: three parallel angular route strokes running left to right, rising by one precise offset and terminating toward a common direction; a compact dynamic symbol with three distinct parallel bars and cuts. Bold geometric IHC wordmark on the right. Blue #15487F; one copper #B76535 terminal optional. Flat crisp vector aesthetic, generous whitespace. Exact text only \"IHC\". No globe, no eye, no oval, no two arcs, no additional text, no mockup, no gradients. Wide horizontal presentation."
+    },
+    {
+      "id": "04",
+      "sourcePath": "C:\\Users\\SeniorPomidor\\.codex\\generated_images\\01a14988-78fd-7b81-84c9-e3cde69c7970\\exec-a7f1797f-a9a2-4573-9396-006de884c70e.png",
+      "prompt": "Use case: logo-brand. Asset type: premium corporate logo concept for IHC, a China-to-Russia B2B sourcing and logistics company. Create ONE logo on pure white. Symbol concept: MODULE: a minimalist open isometric cargo box built from three solid geometric facets, one open top corner, visually architectural and refined. Bold geometric IHC wordmark on the right. Blue #15487F; a small copper #B76535 internal facet optional. Flat crisp vector aesthetic, generous whitespace. Exact text only \"IHC\". No globe, no eye, no oval, no arcs, no additional text, no mockup, no gradients. Wide horizontal presentation."
+    },
+    {
+      "id": "05",
+      "sourcePath": "C:\\Users\\SeniorPomidor\\.codex\\generated_images\\01a14988-78fd-7b81-84c9-e3cde69c7970\\exec-55487cd8-da94-4da0-bd84-07676b706a55.png",
+      "prompt": "Use case: logo-brand. Asset type: premium corporate logo concept for IHC, a China-to-Russia B2B sourcing and logistics company. Create ONE logo on pure white. Symbol concept: VECTOR: one continuous thick angular route with a 90-degree turn and a small square terminal node, forming an abstract forward/upward arrow with a unique minimal silhouette; no enclosing frame. Bold geometric IHC wordmark on the right. Blue #15487F; one copper #B76535 terminal. Flat crisp vector aesthetic, generous whitespace. Exact text only \"IHC\". No globe, no eye, no oval, no arcs, no additional text, no mockup, no gradients. Wide horizontal presentation."
+    }
+  ]
+}

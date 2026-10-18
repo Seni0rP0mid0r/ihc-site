@@ -1,0 +1,51 @@
+{
+  "generatedAt": "2026-10-17",
+  "notice": "AI-generated conceptual imagery; not photographs of actual IHC property or activities",
+  "assets": [
+    {
+      "name": "warehouse",
+      "prompt": "Use case: photorealistic-natural. Asset type: wide background for a conceptual IHC design-system demonstration about China-to-Russia sourcing and logistics. Cinematic architectural/editorial commercial photography, believable physical objects and geometry, restrained premium atmosphere. Wide 1536x1024 landscape. Subject/action primarily in the right two-thirds, quiet darker low-detail left third suitable for white website copy with overlay; do NOT render text or UI. Palette deep navy #15487F, cool pale blue #90BDDA, restrained copper orange #B76535 accents; natural cool daylight and gently warm practical light. No logos, no readable text, no brands, no watermarks, no graphics. This represents a conceptual scene, never a specific real company facility. Scene: clean modern industrial warehouse photographed from aisle entrance, tall symmetrical steel pallet racks carrying stacked sealed kraft cartons. Deep blue uprights, copper orange horizontal beams, cool skylights, rich realistic concrete and corrugated texture, orderly credible loading configuration. Large warehouse depth and right-side subject detail, no person needed. Slight atmospheric depth, natural realistic lens.",
+      "source": "C:\\Users\\SeniorPomidor\\.codex\\generated_images\\01a14988-b6e9-74a0-8d88-89fbd1093090\\exec-7467ed73-0475-4fe9-b5a9-22f873710df4.png",
+      "tool": "image_gen.imagegen",
+      "status": "generated conceptual imagery; does not represent actual IHC facilities",
+      "output": {
+        "original": "public/images/scenes/warehouse.png",
+        "webp": "public/images/scenes/warehouse.webp",
+        "width": 1536,
+        "height": 1024,
+        "pngBytes": 2433302,
+        "webpBytes": 242166
+      }
+    },
+    {
+      "name": "inspection",
+      "prompt": "Use case: photorealistic-natural. Asset type: wide background for a conceptual IHC design-system demonstration about China-to-Russia sourcing and logistics. Cinematic architectural/editorial commercial photography, believable physical objects and geometry, restrained premium atmosphere. Wide 1536x1024 landscape. Subject/action primarily in the right two-thirds, quiet darker low-detail left third suitable for white website copy with overlay; do NOT render text or UI. Palette deep navy #15487F, cool pale blue #90BDDA, restrained copper orange #B76535 accents; natural cool daylight and gently warm practical light. No logos, no readable text, no brands, no watermarks, no graphics. This represents a conceptual scene, never a specific real company facility. Scene: product quality inspection inside a clean light industrial packing workspace. A single adult employee in deep navy workwear, seen from a respectful medium-wide side/back angle at right, inspecting neutral unbranded manufactured small metal components and sealed cartons on a sturdy workbench. Face not a focal point, natural believable hand posture, simple caliper held carefully over sample. Copper-colored small desk lamp and packaging tape accent, cool window light, shelves and plain boxes behind. Left third calm darker workspace wall. No screens with text.",
+      "source": "C:\\Users\\SeniorPomidor\\.codex\\generated_images\\01a14988-b6e9-74a0-8d88-89fbd1093090\\exec-79dd3e58-5398-4771-9d44-4a2edaf67e7f.png",
+      "tool": "image_gen.imagegen",
+      "status": "generated conceptual imagery; does not represent actual IHC facilities",
+      "output": {
+        "original": "public/images/scenes/inspection.png",
+        "webp": "public/images/scenes/inspection.webp",
+        "width": 1536,
+        "height": 1024,
+        "pngBytes": 1969873,
+        "webpBytes": 113952
+      }
+    },
+    {
+      "name": "port",
+      "prompt": "Use case: photorealistic-natural. Asset type: wide background for a conceptual IHC design-system demonstration about China-to-Russia sourcing and logistics. Cinematic architectural/editorial commercial photography, believable physical objects and geometry, restrained premium atmosphere. Wide 1536x1024 landscape. Subject/action primarily in the right two-thirds, quiet darker low-detail left third suitable for white website copy with overlay; do NOT render text or UI. Palette deep navy #15487F, cool pale blue #90BDDA, restrained copper orange #B76535 accents; natural cool daylight and gently warm practical light. No logos, no readable text, no brands, no watermarks, no graphics. This represents a conceptual scene, never a specific real company facility. Scene: a physically believable container terminal at a coastal port, blue and copper-orange steel containers arranged in realistic rows to the right, shipping crane and a large cargo vessel in the middle distance, cool clear morning haze and soft blue sky. Ground-level wide photographic viewpoint, ordered geometry, realistic scale, left third calmer open terminal pavement and subdued sky. No trucks or airplanes; cohesive single real-looking place rather than collage.",
+      "source": "C:\\Users\\SeniorPomidor\\.codex\\generated_images\\01a14988-b6e9-74a0-8d88-89fbd1093090\\exec-03fe088b-b2b1-49c8-9832-c688c8388f67.png",
+      "tool": "image_gen.imagegen",
+      "status": "generated conceptual imagery; does not represent actual IHC facilities",
+      "output": {
+        "original": "public/images/scenes/port.png",
+        "webp": "public/images/scenes/port.webp",
+        "width": 1536,
+        "height": 1024,
+        "pngBytes": 2479069,
+        "webpBytes": 227516
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "created": "2026-10-17",
+  "kind": "logo-brand",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: logo-brand\nAsset type: polished logo concept exploration board, landscape 1536x1024.\nPrimary request: create one restrained premium corporate identity direction for IHC, a China-to-Russia B2B sourcing and logistics company. Show a distinctive open route symbol with two terminal dots beside a strong clean geometric IHC wordmark. Evolve the supplied brand's sense of two arcs and dots, but redraw a fresh, compact, balanced single route mark. Symbol must work at 24px and look like a route joining two places, never an airplane, globe or generic arrow. Keep negative space clear and icon separated from IHC.\nComposition: editorial white board, generous whitespace, dominant horizontal blue logo at upper left, compact standalone blue route symbol at upper right, white reversed logo on a deep blue rectangular field along lower third; precise optical alignment. Flat vector-like artwork, sharp simple geometry, no gradients, no 3D, no mockup objects, no drop shadows. Use only deep corporate blue #15487F, darker #123D72, white and very pale gray. Lettering text verbatim: IHC. No additional text, slogan, claims, dates, annotations, contact details or watermark.",
+  "generatedConcept": "C:/Users/SeniorPomidor/.codex/generated_images/01a1496f-24dc-7062-8d2f-a28311cff5ff/exec-c1a6f9b7-feb9-498c-a599-2247247019d0.png",
+  "projectConcept": "logo-exploration.png",
+  "sourceReference": "5375527316617895699.jpg",
+  "finalArtwork": "Deterministic SVG redrawing inspired by generated exploration and original two arcs / dots. All IHC letter outlines are paths without font dependencies.",
+  "status": "Design system stage 1 proposal; brand approval pending.",
+  "geometry": {
+    "horizontal": [
+      296,
+      88
+    ],
+    "mark": [
+      96,
+      72
+    ],
+    "favicon": [
+      64,
+      64
+    ]
+  },
+  "colors": {
+    "blue": "#15487F",
+    "white": "#FFFFFF"
+  }
+}
