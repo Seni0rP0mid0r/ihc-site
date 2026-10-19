@@ -1,5 +1,5 @@
 {
-  "sourceCommit": "ec401a81dfa3a47b96ce3395b48ac27dcbe40c8e",
-  "description": "Persistent navigation with all sections, without back-to-top",
-  "publishedAt": "2026-10-19T18:34:40.9614294Z"
+  "sourceCommit": "3e6f985ba3e1a26babb5c32f86a29ed0d08f0812",
+  "change": "Consolidate application summary",
+  "base": "/ihc-site/"
 }
