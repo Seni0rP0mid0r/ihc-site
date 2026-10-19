@@ -1,0 +1,1 @@
+(()=>{const root=document.querySelector('[data-direction-lab]');if(!root)return;const fit=()=>root.style.setProperty('--direction-fit',String(Math.min((window.innerWidth-64)/1500,(window.innerHeight-80)/1040)));fit();window.addEventListener('resize',fit,{passive:true});})();
