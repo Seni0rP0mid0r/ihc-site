@@ -3,55 +3,55 @@
     "id": "01",
     "name": "Стык",
     "description": "Два встречных направления и медный узел: поставка как точное соединение сторон.",
-    "svg": "/ihc-site/brand/options/logo-01.svg",
-    "concept": "/ihc-site/brand/options/logo-01-concept.png",
+    "svg": "/brand/options/logo-01.svg",
+    "concept": "/brand/options/logo-01-concept.png",
     "paths": {
-      "svg": "/ihc-site/brand/options/logo-01.svg",
-      "concept": "/ihc-site/brand/options/logo-01-concept.png"
+      "svg": "/brand/options/logo-01.svg",
+      "concept": "/brand/options/logo-01-concept.png"
     }
   },
   {
     "id": "02",
     "name": "Монограмма",
     "description": "Архитектурная монограмма IHC с открытыми каналами и медным стыком.",
-    "svg": "/ihc-site/brand/options/logo-02.svg",
-    "concept": "/ihc-site/brand/options/logo-02-concept.png",
+    "svg": "/brand/options/logo-02.svg",
+    "concept": "/brand/options/logo-02-concept.png",
     "paths": {
-      "svg": "/ihc-site/brand/options/logo-02.svg",
-      "concept": "/ihc-site/brand/options/logo-02-concept.png"
+      "svg": "/brand/options/logo-02.svg",
+      "concept": "/brand/options/logo-02-concept.png"
     }
   },
   {
     "id": "03",
     "name": "Поток",
     "description": "Три параллельных маршрута: поступательное движение и слаженность этапов.",
-    "svg": "/ihc-site/brand/options/logo-03.svg",
-    "concept": "/ihc-site/brand/options/logo-03-concept.png",
+    "svg": "/brand/options/logo-03.svg",
+    "concept": "/brand/options/logo-03-concept.png",
     "paths": {
-      "svg": "/ihc-site/brand/options/logo-03.svg",
-      "concept": "/ihc-site/brand/options/logo-03-concept.png"
+      "svg": "/brand/options/logo-03.svg",
+      "concept": "/brand/options/logo-03-concept.png"
     }
   },
   {
     "id": "04",
     "name": "Модуль",
     "description": "Открытый грузовой модуль: предметный образ товара и организованной поставки.",
-    "svg": "/ihc-site/brand/options/logo-04.svg",
-    "concept": "/ihc-site/brand/options/logo-04-concept.png",
+    "svg": "/brand/options/logo-04.svg",
+    "concept": "/brand/options/logo-04-concept.png",
     "paths": {
-      "svg": "/ihc-site/brand/options/logo-04.svg",
-      "concept": "/ihc-site/brand/options/logo-04-concept.png"
+      "svg": "/brand/options/logo-04.svg",
+      "concept": "/brand/options/logo-04-concept.png"
     }
   },
   {
     "id": "05",
     "name": "Вектор",
     "description": "Один маршрут с поворотом и конечным узлом: ясное направление движения.",
-    "svg": "/ihc-site/brand/options/logo-05.svg",
-    "concept": "/ihc-site/brand/options/logo-05-concept.png",
+    "svg": "/brand/options/logo-05.svg",
+    "concept": "/brand/options/logo-05-concept.png",
     "paths": {
-      "svg": "/ihc-site/brand/options/logo-05.svg",
-      "concept": "/ihc-site/brand/options/logo-05-concept.png"
+      "svg": "/brand/options/logo-05.svg",
+      "concept": "/brand/options/logo-05-concept.png"
     }
   }
 ]
