@@ -1,0 +1,23 @@
+
+/* Give the category prompt and product controls their own space. */
+.direction-facet-group{gap:16px}
+.direction-facets button{min-height:50px;padding:12px 20px}
+@media(min-width:960px){
+ .direction-lab>.home-wrap{grid-template-rows:194px minmax(0,1fr) 160px;gap:24px}
+ .direction-stage{--product-size:400px}
+ .direction-film{inset:76px 0 132px}
+ .direction-facets{bottom:12px;left:0;right:0}
+ .direction-facets button{min-height:56px;min-width:150px;padding:14px 24px}
+ .direction-lab .direction-other{min-height:160px;padding:28px 36px;gap:48px}
+ .direction-lab .direction-other p{margin-top:12px;line-height:1.6}
+ .direction-other-action{padding:14px 18px 14px 30px;gap:40px}
+}
+@media(max-width:639px){
+ .direction-stage{height:calc(var(--product-size) + 192px)}
+ .direction-film{inset:44px 0 110px}
+ .direction-facets{bottom:8px}
+ .direction-facet-group{gap:10px}
+ .direction-facets button{min-height:44px;padding:10px 14px}
+ .direction-lab .direction-other{padding:28px 24px;margin-top:12px}
+ .direction-other-action{margin-top:24px}
+}
