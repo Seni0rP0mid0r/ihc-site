@@ -1,7 +1,7 @@
 {
-  "sourceCommit": "820998d17c0dd9f1308c0a52126ffec525dfd542",
+  "sourceCommit": "8563970edb01e47040255cc503968707a740db1f",
   "sourceBranch": "codex/mobile-adaptation",
-  "change": "Rebuilt mobile hero, fixed header menu, static process backdrop and footer",
+  "change": "Full-screen mobile hero and generated blurred dark process background",
   "base": "/ihc-site/",
-  "publishedAt": "2026-10-22T11:52:28.000724+00:00"
+  "publishedAt": "2026-10-22T12:08:18.627638+00:00"
 }
