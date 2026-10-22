@@ -1,7 +1,7 @@
 {
-  "sourceCommit": "8563970edb01e47040255cc503968707a740db1f",
+  "sourceCommit": "5ab643ec353ef58eb5db9aef6289fada497abf91",
   "sourceBranch": "codex/mobile-adaptation",
-  "change": "Full-screen mobile hero and generated blurred dark process background",
+  "change": "Tighter mobile hero and soft native section transitions",
   "base": "/ihc-site/",
-  "publishedAt": "2026-10-22T12:08:18.627638+00:00"
+  "publishedAt": "2026-10-22T15:12:13.119461+00:00"
 }
