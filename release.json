@@ -1,7 +1,7 @@
 {
-  "sourceCommit": "5ab643ec353ef58eb5db9aef6289fada497abf91",
+  "sourceCommit": "fea3e2c175e221d4abda9c11f31e025d0890f76b",
   "sourceBranch": "codex/mobile-adaptation",
-  "change": "Tighter mobile hero and soft native section transitions",
+  "change": "Supplied user logo throughout the site and minimal mobile header",
   "base": "/ihc-site/",
-  "publishedAt": "2026-10-22T15:12:13.119461+00:00"
+  "publishedAt": "2026-10-22T15:44:22.848186+00:00"
 }
