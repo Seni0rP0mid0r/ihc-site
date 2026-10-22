@@ -1,7 +1,7 @@
 {
-  "sourceCommit": "411932e22562bc85de7cd9576f5a4875005c80e6",
+  "sourceCommit": "820998d17c0dd9f1308c0a52126ffec525dfd542",
   "sourceBranch": "codex/mobile-adaptation",
-  "change": "Mobile-specific layouts and interactions; desktop composition preserved",
+  "change": "Rebuilt mobile hero, fixed header menu, static process backdrop and footer",
   "base": "/ihc-site/",
-  "publishedAt": "2026-10-22T11:28:02.792876+00:00"
+  "publishedAt": "2026-10-22T11:52:28.000724+00:00"
 }
