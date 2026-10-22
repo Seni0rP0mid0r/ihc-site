@@ -1,5 +1,7 @@
 {
-  "sourceCommit": "3e6f985ba3e1a26babb5c32f86a29ed0d08f0812",
-  "change": "Consolidate application summary",
-  "base": "/ihc-site/"
+  "sourceCommit": "411932e22562bc85de7cd9576f5a4875005c80e6",
+  "sourceBranch": "codex/mobile-adaptation",
+  "change": "Mobile-specific layouts and interactions; desktop composition preserved",
+  "base": "/ihc-site/",
+  "publishedAt": "2026-10-22T11:28:02.792876+00:00"
 }
