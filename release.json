@@ -1,7 +1,7 @@
 {
-  "sourceCommit": "fea3e2c175e221d4abda9c11f31e025d0890f76b",
+  "sourceCommit": "d680c48",
   "sourceBranch": "codex/mobile-adaptation",
-  "change": "Supplied user logo throughout the site and minimal mobile header",
+  "change": "Mobile service route and illustrated process redesign",
   "base": "/ihc-site/",
-  "publishedAt": "2026-10-22T15:44:22.848186+00:00"
+  "publishedAt": "2026-10-29T10:57:13.466860+00:00"
 }
