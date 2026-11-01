@@ -167,3 +167,33 @@
 /* Each optimized transport asset contains one complete vehicle. */
 .closing-journey .freight-image img{width:100%;height:100%;object-fit:contain;left:0;top:0}
 .closing-journey .freight-image-road img,.closing-journey .freight-image-rail img,.closing-journey .freight-image-sea img{left:0;top:0}
+
+/* Desktop delivery is one viewport, including consolidation and the CTA. */
+@media(min-width:1024px){
+ .closing-journey #delivery{padding:clamp(16px,2.5svh,28px) 0 84px;min-height:100svh;box-sizing:border-box}
+ #delivery .cj-heading{margin-bottom:16px;gap:32px}
+ #delivery h2{font-size:clamp(32px,3.2vw,48px)}
+ #delivery .cj-heading>p{font-size:13px;line-height:1.55;max-width:42ch}
+ .freight-card-heading{padding:16px 18px 0;min-height:66px}
+ #delivery .freight-card h3{font-size:clamp(18px,1.6vw,24px)}
+ #delivery .freight-card-heading p{font-size:12px;line-height:1.4;margin-top:6px;max-width:none}
+ .freight-visual{height:clamp(64px,12svh,130px);margin-bottom:4px}
+ .freight-description{margin:0 18px 12px;padding-top:10px}
+ #delivery .freight-description p{font-size:13px;line-height:1.55}
+ #delivery .freight-description .freight-constraint{margin-top:10px;padding-top:8px;font-size:11px;line-height:1.5}
+ .freight-card-body{margin: auto 18px 14px;padding-top:10px}
+ .freight-warehouses{margin-top:16px;padding:16px 0;gap:32px;grid-template-columns:1fr 1.3fr}
+ #delivery .freight-warehouses h3{font-size:21px}
+ #delivery .freight-warehouses-intro p{margin-top:8px;font-size:12px;line-height:1.55;max-width:60ch}
+ .freight-warehouse-locations{gap:6px}
+ .freight-warehouse-locations dt{font-size:11px}
+ .freight-warehouse-locations dd{font-size:12px;line-height:1.5}
+ .freight-warehouses+.freight-bottom{padding-top:12px;gap:24px}
+ #delivery .freight-bottom .cj-dispatch-note{font-size:11px}
+ .freight-bottom strong{font-size:12px;margin-bottom:0}
+ #delivery .freight-bottom>a{min-height:44px;padding:9px 18px;font-size:12px}
+}
+
+@media(min-width:1024px) and (max-height:760px){.freight-visual{height:64px}.freight-warehouses{padding-block:12px;margin-top:12px}}
+
+@media(min-width:1024px){.freight-image{height:100%;aspect-ratio:auto;top:0;transform:none}}
