@@ -1,0 +1,165 @@
+/* Compare all route conditions up front. Further detail stays inside the card. */
+.closing-journey #delivery{padding:clamp(32px,5svh,64px) 0 100px;scroll-margin-top:0}
+#delivery>.home-wrap{width:min(calc(100% - 96px),1480px)}
+#delivery .cj-heading{grid-template-columns:1.25fr 1fr;gap:40px;align-items:end;margin-bottom:clamp(22px,3.5svh,40px)}
+#delivery h2{font-size:clamp(34px,3.6vw,56px);line-height:1.1;text-wrap:balance;letter-spacing:-.04em;font-weight:550}
+#delivery .cj-heading>p{font-size:15px;line-height:1.7;max-width:37ch;padding:0 0 3px}
+#delivery .cj-dispatch{border:0}
+.freight-mode-nav{display:none}
+.freight-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px;align-items:stretch}
+.freight-card{position:relative;min-width:0;background:#edf3f7;border:1px solid #d6e3ed;border-radius:8px;overflow:hidden;display:flex;flex-direction:column;isolation:isolate;transition:border-color .2s,box-shadow .2s}
+.freight-card:hover{border-color:#91aec5}
+.freight-card.is-selected{border-color:var(--color-primary);box-shadow:0 6px 18px #123d7214}
+.freight-card-heading{padding:22px 22px 0;min-height:96px;position:relative;z-index:1}
+#delivery .freight-card h3{color:var(--color-primary);font-size:clamp(18px,1.65vw,26px);font-weight:650;letter-spacing:-.025em;line-height:1.2}
+#delivery .freight-card-heading p{font-size:13px;line-height:1.5;color:#914724;margin-top:9px;max-width:25ch}
+.freight-visual{position:relative;height:clamp(128px,18svh,188px);overflow:hidden;margin-block:0 6px;mask-image:linear-gradient(transparent,#000 8%,#000 94%,transparent);transition:opacity .2s}
+.freight-image{position:absolute;top:50%;left:0;width:100%;aspect-ratio:1.5;overflow:hidden;transform:translateY(-50%)}
+.freight-image-rail,.freight-image-sea{transform:translateY(calc(-50% + 8px))}
+.freight-comparison{margin:0 22px 8px}
+.freight-comparison>div{display:grid;grid-template-columns:58px minmax(0,1fr);gap:12px;border-top:1px solid #cfdde7;padding:11px 0;min-height:62px;align-items:baseline}
+.freight-comparison dt{font-size:10px;line-height:1.6;color:#52697c}
+.freight-comparison dd{margin:0;font-size:13px;line-height:1.5;font-weight:500;color:#244763}
+.freight-card:has(.freight-details[open]) .freight-comparison{visibility:hidden}
+.closing-journey .freight-image img{position:absolute;max-width:none;width:200%;height:200%;object-fit:fill;left:0;top:0;mix-blend-mode:multiply;transition:transform .35s cubic-bezier(.16,1,.3,1)}
+.closing-journey .freight-image-road img{left:-100%}.closing-journey .freight-image-rail img{top:-100%}.closing-journey .freight-image-sea img{left:-100%;top:-100%}
+.freight-card:hover .freight-image img{transform:translateY(-2px)}
+.freight-card:has(.freight-details[open]) .freight-visual{opacity:0;pointer-events:none}
+.freight-card-body{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:0 22px 20px;padding-top:12px;border-top:1px solid #cfdde7;margin-top:auto}
+.freight-details summary{position:relative;display:flex;align-items:center;gap:10px;min-height:44px;list-style:none;cursor:pointer;color:var(--color-primary);font-size:12px;white-space:nowrap}
+.freight-details summary::-webkit-details-marker{display:none}
+.freight-details summary svg{width:16px;height:16px;transition:transform .2s}
+.freight-details[open] summary svg{transform:rotate(45deg)}
+.freight-close-label,.freight-details[open] .freight-more-label{display:none}
+.freight-details[open] .freight-close-label{display:inline}
+.freight-route-panel{position:absolute;inset:98px 22px 86px;overflow-y:auto;overscroll-behavior:contain;scrollbar-width:thin;scrollbar-color:#90bdda transparent;background:#edf3f7;z-index:2}
+#delivery .freight-route-panel p{font-size:13px;line-height:1.7;color:#294c68;margin:0}
+.freight-route-panel>span{display:block;color:var(--color-primary);font-size:11px;line-height:1.65;margin-top:14px;padding-top:12px;border-top:1px solid #cfdde7}
+.closing-journey .freight-select{min-height:44px;padding:9px 12px;border:1px solid #9eb7cc;border-radius:4px;background:transparent;color:var(--color-primary);display:flex;align-items:center;justify-content:space-between;gap:12px;cursor:pointer;font-size:12px;font-weight:650;white-space:nowrap;transition:background .2s,border-color .2s,color .2s}
+.freight-select-label:before{content:attr(data-label)}
+.freight-selection-name{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+.closing-journey .freight-select:hover,.closing-journey .freight-select[aria-pressed=true]{background:var(--color-primary);border-color:var(--color-primary);color:#fff}
+.freight-select[aria-pressed=true] svg{display:none}
+.freight-select[aria-pressed=true]:after{content:'';width:12px;height:7px;border-left:1.6px solid currentColor;border-bottom:1.6px solid currentColor;transform:rotate(-45deg);margin:0 2px 4px}
+.freight-bottom{display:flex;justify-content:space-between;align-items:center;gap:28px;margin-top:clamp(18px,3svh,32px);padding-top:20px;border-top:1px solid var(--color-border)}
+#delivery .freight-bottom .cj-dispatch-note{margin:0;font-size:12px;line-height:1.65;max-width:65ch;color:var(--color-muted)}
+.freight-bottom strong{font-size:13px;font-weight:600;color:var(--color-primary);display:block;margin-bottom:3px}
+.freight-bottom .cj-dispatch-note>span{display:block}
+#delivery .freight-bottom>a{display:flex;align-items:center;justify-content:center;gap:24px;min-height:46px;padding:11px 20px;background:var(--color-primary);color:white;border:1px solid var(--color-primary);border-radius:999px;white-space:nowrap;font-size:13px;font-weight:600;transition:background .2s}
+#delivery .freight-bottom>a:hover{background:var(--color-primary-hover)}
+.closing-journey:not(.is-ready) .freight-select{display:none}
+@media(min-width:1024px) and (max-height:800px){
+ .closing-journey #delivery{padding-top:24px;padding-bottom:90px}
+ #delivery .cj-heading{margin-bottom:18px}
+ #delivery h2{font-size:clamp(34px,3.3vw,48px)}
+ .freight-card-heading{min-height:94px;padding-top:18px}
+ .freight-visual{height:128px}
+ .freight-comparison>div{padding-block:8px;min-height:52px}
+ .freight-comparison dd{font-size:12px;line-height:1.5}
+ .freight-card-body{padding-top:12px;margin-bottom:16px}
+ .freight-bottom{margin-top:16px;padding-top:12px}
+}
+@media(min-width:1024px) and (max-width:1199px){
+ #delivery>.home-wrap{width:calc(100% - 64px)}
+ .freight-grid{gap:12px}
+ .freight-card-heading{padding-inline:16px;min-height:94px}
+ .freight-visual{height:96px}
+ .freight-image{width:85%;left:7.5%}
+ .freight-comparison{margin-inline:16px}
+ .freight-comparison>div{grid-template-columns:47px minmax(0,1fr);gap:8px}
+ .freight-card-body{margin-inline:16px;gap:7px;flex-wrap:wrap}
+ .freight-select{flex:1}
+ .freight-route-panel{inset:102px 16px 86px}
+ #delivery .freight-card h3{font-size:19px}
+}
+@media(max-width:1023px){
+ .closing-journey #delivery{padding:36px 0 100px}
+ #delivery>.home-wrap{width:calc(100% - 64px)}
+ #delivery .cj-heading{grid-template-columns:1.25fr 1fr;gap:24px;margin-bottom:22px}
+ #delivery h2{font-size:38px}
+ #delivery .cj-heading>p{font-size:14px}
+ .freight-mode-nav:not([hidden]){display:flex;gap:6px;margin-bottom:16px}
+ #delivery .freight-mode-nav button{background:transparent;border:1px solid var(--color-border);color:var(--color-primary);border-radius:999px;min-height:44px;min-width:64px;padding:8px 18px;font-size:13px;cursor:pointer;transition:background .2s,color .2s}
+ #delivery .freight-mode-nav button[aria-pressed=true]{background:var(--color-primary);color:white;border-color:var(--color-primary)}
+ .freight-grid{grid-template-columns:none;grid-auto-flow:column;grid-auto-columns:calc((100% - 16px)/2);gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;overscroll-behavior-x:contain;scroll-padding:0;padding:6px;margin-top:-6px;margin-inline:-6px}
+ .freight-grid::-webkit-scrollbar{display:none}
+ .freight-card{scroll-snap-align:start;scroll-margin-left:6px}
+ .freight-card-heading{padding-top:20px;min-height:96px}
+ #delivery .freight-card h3{font-size:24px}
+ .freight-visual{height:150px}
+ .freight-bottom{margin-top:20px;padding-top:16px}
+ .closing-journey:not(.is-ready) .freight-grid{grid-auto-flow:row;grid-template-columns:repeat(2,minmax(0,1fr));overflow:visible}
+}
+@media(max-width:767px){
+ .closing-journey #delivery{padding:20px 0 88px}
+ #delivery>.home-wrap{width:calc(100% - 40px)}
+ #delivery .cj-heading{grid-template-columns:1fr;gap:14px;margin-bottom:20px}
+ #delivery h2{font-size:clamp(30px,7.8vw,40px)}
+ #delivery .cj-heading>p{font-size:13px;line-height:1.6;max-width:39ch;padding:0}
+ .freight-intro-break{display:none}
+ .freight-mode-nav:not([hidden]){gap:7px;margin-bottom:14px}
+ #delivery .freight-mode-nav button{min-width:0;flex:1;min-height:42px;padding:8px 10px;font-size:12px}
+ .freight-grid{grid-auto-columns:100%;gap:12px}
+ .freight-card-heading{padding:21px 22px 0;min-height:91px}
+ #delivery .freight-card h3{font-size:25px}
+ #delivery .freight-card-heading p{font-size:13px;margin-top:9px;max-width:none}
+ .freight-visual{height:142px;margin-bottom:4px}
+ .freight-comparison{margin-bottom:4px}
+ .freight-comparison>div{padding-block:9px;min-height:54px;grid-template-columns:58px minmax(0,1fr);gap:10px}
+ .freight-comparison dd{font-size:12px;line-height:1.5}
+ .freight-card-body{margin-bottom:18px;padding-top:12px}
+ .freight-details summary{font-size:13px}
+ .closing-journey .freight-select{font-size:13px;padding:10px 14px;gap:18px}
+ .freight-route-panel{inset:82px 22px 82px}
+ .freight-bottom{gap:16px;margin-top:18px;padding-top:14px}
+ #delivery .freight-bottom .cj-dispatch-note{font-size:11px;line-height:1.6}
+ .freight-bottom strong{font-size:12px;max-width:24ch}
+ .freight-bottom .cj-dispatch-note>span{display:none}
+ #delivery .freight-bottom>a{font-size:12px;min-height:44px;padding:9px 14px;gap:12px}
+ .freight-bottom>a svg{width:16px;height:16px}
+ .closing-journey:not(.is-ready) .freight-grid{grid-template-columns:1fr}
+}
+@media(max-width:359px){
+ .closing-journey #delivery{padding-top:12px}
+ #delivery .cj-heading{gap:8px;margin-bottom:14px}
+ #delivery h2{font-size:28px}
+ .freight-card-heading{min-height:78px}
+ .freight-card-body{margin-bottom:12px;padding-top:8px}
+ .freight-bottom{padding-top:12px}
+ .freight-visual{height:108px}
+ .freight-comparison{margin-inline:18px}
+ .freight-comparison>div{grid-template-columns:49px minmax(0,1fr);gap:8px;padding-block:7px;min-height:47px}
+ .freight-comparison dt{font-size:9px}
+ .freight-comparison dd{font-size:11px;line-height:1.5}
+
+ .freight-card-heading{padding-inline:18px}
+ .freight-card-body{margin-inline:18px;gap:8px}
+ #delivery .freight-card h3{font-size:23px}
+ .freight-bottom{gap:10px}
+ #delivery .freight-bottom>a{padding-inline:10px;font-size:11px;gap:7px}
+ .freight-bottom strong{font-size:11px}
+}
+@media(prefers-reduced-motion:reduce){#delivery *,#delivery *:before,#delivery *:after{transition:none!important;scroll-behavior:auto!important}.freight-card:hover .freight-image img{transform:none}}
+
+/* Route explanations remain visible beside their transport illustration. */
+.freight-description{margin:0 22px 24px;border-top:1px solid #cfdde7;padding-top:16px}
+#delivery .freight-description p{margin:0;color:#294c68;font-size:13px;line-height:1.7}
+#delivery .freight-description .freight-constraint{margin-top:16px;padding-top:12px;border-top:1px solid #cfdde7;font-size:11px;color:var(--color-primary)}
+.freight-card-body{justify-content:flex-end}
+.freight-warehouses{display:grid;grid-template-columns:1fr 1.2fr;gap:48px;margin-top:32px;padding:28px 0;border-block:1px solid var(--color-border)}
+#delivery .freight-warehouses h3{font-size:24px;line-height:1.3;letter-spacing:-.025em;font-weight:600;color:var(--color-primary)}
+#delivery .freight-warehouses-intro p{max-width:52ch;font-size:13px;line-height:1.7;margin:12px 0 0;color:#294c68}
+.freight-warehouse-locations{display:grid;gap:14px;margin:0;align-content:center}
+.freight-warehouse-locations>div{display:grid;grid-template-columns:64px 1fr;gap:16px}
+.freight-warehouse-locations dt{font-size:12px;line-height:1.7;color:#52697c}
+.freight-warehouse-locations dd{margin:0;font-size:14px;line-height:1.6;color:var(--color-primary)}
+.freight-warehouses+.freight-bottom{border-top:0;margin-top:0}
+@media(min-width:1024px) and (max-width:1199px){.freight-description{margin-inline:16px}}
+@media(max-width:767px){
+ .freight-description{margin-inline:20px;margin-bottom:20px}
+ #delivery .freight-description p{font-size:14px}
+ #delivery .freight-description .freight-constraint{font-size:12px}
+ .freight-warehouses{grid-template-columns:1fr;gap:24px;margin-top:24px;padding-block:24px}
+ #delivery .freight-warehouses h3{font-size:22px}
+ .freight-warehouse-locations>div{grid-template-columns:52px 1fr;gap:12px}
+}
