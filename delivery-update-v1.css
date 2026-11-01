@@ -177,7 +177,7 @@
  .freight-card-heading{padding:16px 18px 0;min-height:66px}
  #delivery .freight-card h3{font-size:clamp(18px,1.6vw,24px)}
  #delivery .freight-card-heading p{font-size:12px;line-height:1.4;margin-top:6px;max-width:none}
- .freight-visual{height:clamp(64px,12svh,130px);margin-bottom:4px}
+ .freight-visual{height:clamp(140px,22svh,220px);margin-bottom:4px}
  .freight-description{margin:0 18px 12px;padding-top:10px}
  #delivery .freight-description p{font-size:13px;line-height:1.55}
  #delivery .freight-description .freight-constraint{margin-top:10px;padding-top:8px;font-size:11px;line-height:1.5}
@@ -194,6 +194,9 @@
  #delivery .freight-bottom>a{min-height:44px;padding:9px 18px;font-size:12px}
 }
 
-@media(min-width:1024px) and (max-height:760px){.freight-visual{height:64px}.freight-warehouses{padding-block:12px;margin-top:12px}}
+@media(min-width:1024px) and (max-height:760px){.freight-visual{height:150px}.freight-warehouses{padding-block:12px;margin-top:12px}}
 
-@media(min-width:1024px){.freight-image{height:100%;aspect-ratio:auto;top:0;transform:none}}
+@media(min-width:1024px){.freight-image{width:100%;left:0;height:auto;aspect-ratio:1.5;top:50%;transform:translateY(-50%)}}
+
+#delivery .freight-description p{font-size:12px;line-height:1.55}
+@media(min-width:1024px){.freight-description{margin-bottom:14px;min-height:70px}.freight-warehouses{padding-block:12px}.freight-warehouses-intro p{max-width:62ch}}
