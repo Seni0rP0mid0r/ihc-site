@@ -163,3 +163,7 @@
  #delivery .freight-warehouses h3{font-size:22px}
  .freight-warehouse-locations>div{grid-template-columns:52px 1fr;gap:12px}
 }
+
+/* Each optimized transport asset contains one complete vehicle. */
+.closing-journey .freight-image img{width:100%;height:100%;object-fit:contain;left:0;top:0}
+.closing-journey .freight-image-road img,.closing-journey .freight-image-rail img,.closing-journey .freight-image-sea img{left:0;top:0}
