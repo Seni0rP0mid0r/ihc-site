@@ -1,7 +1,7 @@
 {
-  "sourceCommit": "12ff215",
-  "sourceBranch": "codex/mobile-adaptation",
-  "change": "Refined mobile spacing, number markers and process details",
+  "brand": "IHC Electronics",
+  "sourceCommit": "9af6246fdfb91da3fb575399f10be2c95ac36008",
+  "sourceBranch": "codex/ihc-electronics-2026-11-01",
   "base": "/ihc-site/",
-  "publishedAt": "2026-10-29T11:06:27.813800+00:00"
+  "publishedAt": "2026-11-01T10:10:56.675Z"
 }
